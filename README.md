@@ -33,7 +33,7 @@ v0.1.0 initial code
 #### Build Image
 
 ```sh
-git clone https://github.com/novaspirit/Alpine_xfce4_noVNC.git
+git clone https://github.com/davidhaynz/Alpine_xfce4_noVNC.git
 docker build -t alpine-xfce4 Alpine_xfce4_noVNC/
 ```
 
