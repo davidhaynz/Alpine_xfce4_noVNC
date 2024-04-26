@@ -1,6 +1,6 @@
-# Alpine xfce4 noVNC
+# Alpine xfce4 noVNC docspell
 
-Simple and minimal Alpine Docker Image providing XFCE4 through html5 noVNC connection
+Simple and minimal Alpine Docker Image providing XFCE4 through html5 noVNC connection and DocSpell 
 
 Step by step tutorial on how this docker is created (https://www.youtube.com/watch?v=8IfTXJRAIJw)
 
@@ -11,16 +11,18 @@ Step by step tutorial on how this docker is created (https://www.youtube.com/wat
 [![Twitter URL](https://img.shields.io/twitter/follow/novaspirittech?style=flat-square&logo=twitter)](https://twitter.com/novaspirittech)
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/novaspirit/Alpine_xfce4_noVNC?label=Repo%20Size&logo=github)
-![Docker Build](https://github.com/novaspirit/Alpine_xfce4_noVNC/workflows/Docker/badge.svg) 
-![Docker Pulls](https://img.shields.io/docker/pulls/novaspirit/alpine_xfce4_novnc)
-![Docker Size](https://img.shields.io/docker/image-size/novaspirit/alpine_xfce4_novnc)
+![GitHub repo size](https://img.shields.io/github/repo-size/davidhaynz/Alpine_xfce4_noVNC?label=Repo%20Size&logo=github)
+![Docker Build](https://github.com/davidhaynz/Alpine_xfce4_noVNC/workflows/Docker/badge.svg) 
+![Docker Pulls](https://img.shields.io/docker/pulls/davidhaynz/alpine_xfce4_novnc)
+![Docker Size](https://img.shields.io/docker/image-size/davidhaynz/alpine_xfce4_novnc)
 
 ![preview](preview.png?raw=true "preview")
 
 </div>
 
 #### Updates
+
+v1.0.0 adding docspell (work in progress)
 
 v0.1.2 removed password requirement for noVNC
 
