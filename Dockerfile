@@ -1,6 +1,6 @@
 FROM alpine:3.16
 
-LABEL maintainer="DRH <sophocrat@gmail.com>"
+LABEL maintainer="DRH <DRH@gmail.com>"
 
 RUN apk add --no-cache sudo git bash python3 cmake wget tigervnc firefox \
     xfce4 xfce4-terminal xfce4-screensaver faenza-icon-theme \
@@ -14,8 +14,6 @@ RUN apk add --no-cache sudo git bash python3 cmake wget tigervnc firefox \
     && wget https://raw.githubusercontent.com/davidhaynz/Alpine_xfce4_noVNC/dev/audify.js -O /opt/noVNC/audify.js \
     && wget https://raw.githubusercontent.com/davidhaynz/Alpine_xfce4_noVNC/dev/vnc.html -O /opt/noVNC/vnc.html \
     && wget https://raw.githubusercontent.com/davidhaynz/Alpine_xfce4_noVNC/dev/pcm-player.js -O /opt/noVNC/pcm-player.js
-
-
 
 RUN npm install --prefix /opt/noVNC ws
 RUN npm install --prefix /opt/noVNC audify
